@@ -1,4 +1,70 @@
-.title{
-text-shadow: 2px 2px 8px orangered;
-color: rgb(58, 58, 58);
+header{
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(228, 30, 12);
+    color: rgb(58, 58, 58);
+    font-family: cinzel;
+}
+
+.logo{
+height: 170px;
+width: 170;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+.contact-form{
+    display: block;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(202, 196, 196);
+}
+
+textarea{
+    height: 200px;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-youtube{
+    background: #bb0000;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.footer{
+clear: both;
 }
