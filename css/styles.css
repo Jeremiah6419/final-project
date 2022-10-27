@@ -1,20 +1,28 @@
+/*Header Styles Start*/
 header{
+    font-size: xx-large;
     text-align: center;
-    text-shadow: 2px 2px 8px rgb(228, 30, 12);
+    text-shadow: 2px 2px 8px rgb(225, 90, 0);
     color: rgb(58, 58, 58);
     font-family: cinzel;
 }
+/*Header Styles End*/
 
+/*Nav Styes Start*/
 .logo{
 height: 170px;
 width: 170;
 }
 
-a{
+nav a{
     text-decoration: none;
     padding: 15px;
 }
+/*Nav Styes End*/
 
+
+
+/*Contact Form Styles Start*/
 .contact-form{
     display: block;
     height: 500px;
@@ -28,33 +36,52 @@ a{
 textarea{
     height: 200px;
 }
+/*Contact Form Style End*/
+
+/*Footer Styles Start*/
+footer{
+    color: rgb(255, 94, 0);
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    font-family: courgette;
+    padding-top: 5px;}
+
+.footer-text{
+    font-size: 20px;
+}
+
+.email{
+    font-size: 20px;
+}
+.email a{
+    text-decoration: none;
+    color: rgb(255, 94, 0);
+}
+
+.social-media{
+    font-size: 20px;
+    text-decoration: underline;
+}
 
 .fa-twitter{
-    background: #55ACEE;
     color: white;
     padding: 20px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
+    margin: 5px 2px;}
 
 .fa-facebook{
-    background: #3B5998;
     color: white;
     padding: 20px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
+    margin: 5px 2px;}
 
 .fa-youtube{
-    background: #bb0000;
     color: white;
     padding: 20px;
     font-size: 30px;
@@ -62,9 +89,5 @@ textarea{
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
 }
-
-.footer{
-clear: both;
-}
+/*Footer Styles End*/
