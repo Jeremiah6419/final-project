@@ -172,24 +172,25 @@ float: left;
     width:500px;
 }
 
-.images h1{
+.images p{
+    font-size: 50px;
+}
+
+.images {
     background-color: rgb(11, 11, 11, .8);
     color: white;
-    float: left;
-    margin-left: 100px;
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: auto;
 }
 
 .images img{
-    height: 550px;
+    height: 300px;
     padding: 30px;
 }
-.beserker{
-    margin-left: 700px;
-}
 
-.about{
-clear: both;
-}
+
 /*About Styes End
 
 ---------------------------------------------------------------------------
