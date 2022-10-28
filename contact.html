@@ -10,42 +10,62 @@
     <title>Contact</title>
 </head>
 <body>
-    
     <header>
         <h1>Hearthfire Smithy</h1>
     </header>
 
+    <br>
+
     <nav>
         <img class="logo" src="img/logo.png" alt="logo">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="#">Contact</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
 
-    <br></br>
+    <br>
+
+    <div class="brief-message">
+        <h1>Have any Questions or Problems with an Order? Fill out the form below!</h1>
+    </div>
+
+    <br>
+    <br>
 
     <div class="contact-form">
         <label for="name">Name</label>
         <input type="text" id="name" name="firstname">
-        
+            <br>
+            <br>
         <label for="email">Email</label>
         <input type="text" id="email" name="email">
-
+            <br>
+            <br>
         <label for="subject">Subject</label>
         <select name="subject" id="subject">
-            <option value="blank"></option>
+            <option value="Select...">Select...</option>
             <option value="Question">Question</option>
             <option value="customerservive">Customer Service</option>
             <option value="customorder">Custom Order</option>
             <option value="shipping/delivery Problem">Shipping/Delivery Problem</option>
             <option value="other">Other...</option>
         </select>
-
-        <label for="message">Mesage</label>
+            <br>
+            <br>
+        <label for="message">Message</label>
         <textarea name="message" id="message"></textarea>
+
+        <br>
+        
+        <input type="submit" value="Submit">
+
     </div>
 
-    <h1>Jeremiah's Final</h1>
+    <br>
+    <br>
+    <br>
 
     <footer>
         <p class="footer-text">Author: Jeremiah Wold</p>

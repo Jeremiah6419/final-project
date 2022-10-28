@@ -1,50 +1,262 @@
-/*Header Styles Start*/
+/*Body Styles Start*/
+body{
+    background-color: black;
+    background-image: url(/img/fire-sparks.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Body Styles End
+
+---------------------------------------------------------------------------
+
+Header Styles Start*/
 header{
     font-size: xx-large;
     text-align: center;
     text-shadow: 2px 2px 8px rgb(225, 90, 0);
-    color: rgb(58, 58, 58);
-    font-family: cinzel;
+    color: rgb(0, 0, 0);
+    font-family: cinzel decorative;
+    height: 175px;
+    background-color: rgb(55, 55, 55);
+    width: 50%;
+    margin: auto;
+    padding: 3px;
 }
-/*Header Styles End*/
+/*Header Styles End
 
-/*Nav Styes Start*/
+---------------------------------------------------------------------------
+
+Nav Styes Start*/
+nav{
+    background-color: rgb(55, 55, 55);
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: sticky;
+    top: 20px;
+}
+
 .logo{
-height: 170px;
-width: 170;
+height: 200px;
+width: 200px;
+padding-top: 25px;
+padding-left: 50px;
 }
 
 nav a{
     text-decoration: none;
-    padding: 15px;
+    font-size: 25px;
+    color: rgb(255, 94, 0);
+    list-style-type: none;
+    padding-right: 100px;
 }
-/*Nav Styes End*/
 
+.nav-links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 175px;
+    margin-right: 100px;
+}
+/*Nav Styes End
 
+---------------------------------------------------------------------------
 
-/*Contact Form Styles Start*/
-.contact-form{
-    display: block;
-    height: 500px;
-    width: 500px;
+Hero Image Start*/
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/forge.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
     text-align: center;
-    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 94, 0, .6);
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-top: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+
+
+/*Hero Image End
+
+---------------------------------------------------------------------------
+
+Home Styes Start*/
+.opening-text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(11, 11, 11, .8);
+    margin-left: 50px;
+    padding: 5px;
+    margin-top: 100px;
+    left
+}
+
+.opening{
+    width: 40%;
+    float: left;
+}
+
+.anvil{
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.sword-creation{
+height: 500px;
+}
+
+.sword-creation-text{
+    color: white;
+    background-color: rgb(11, 11, 11, .8);
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 36%;
+    text-align: center;
+    padding: 5px;
+}
+
+.sword-video{
+    float: right;
+    height: 500px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+/*Home Styes End
+
+---------------------------------------------------------------------------
+
+About Styes Start*/
+.map-and-text{
+float: left;
+}
+
+.map-text{
+    background-color: rgb(11, 11, 11, .8);
+    color: white;
+    font-size: 35px;
+    text-decoration: underline;
+    width: 430px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mapouter{
+    text-align:right;
+    height:500px;
+    width:500px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:500px;
+}
+
+.images h1{
+    background-color: rgb(11, 11, 11, .8);
+    color: white;
+    float: left;
+    margin-left: 100px;
+}
+
+.images img{
+    height: 550px;
+    padding: 30px;
+}
+.beserker{
+    margin-left: 700px;
+}
+
+.about{
+clear: both;
+}
+/*About Styes End
+
+---------------------------------------------------------------------------
+
+Contact Form Styles Start*/
+.brief-message{
+    background-color: rgb(55, 55, 55);
+    color: rgb(255, 94, 0);
+    text-align: center;
+    height: 75px;
+    width: 60%;
+    margin: auto;
+    padding: 3px;
+}
+
+.contact-form{
+    color: rgb(255, 94, 0);
+    width: 70%;
+    margin: auto;
     border-radius: 5px;
-    background-color: rgb(202, 196, 196);
+    background-color: rgb(55, 55, 55);
+    padding: 20px;
+    font-size: 30px;
 }
 
-textarea{
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 25px;
+  }
+
+  textarea{
     height: 200px;
-}
-/*Contact Form Style End*/
+  }
 
-/*Footer Styles Start*/
+  input[type=submit] {
+    background-color: rgb(255, 94, 0);
+    color: honeydew;
+    font-size: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/*Contact Form Style End
+
+---------------------------------------------------------------------------
+
+Footer Styles Start*/
 footer{
     color: rgb(255, 94, 0);
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(55, 55, 55);
     text-align: center;
     font-family: courgette;
-    padding-top: 5px;}
+    padding-top: 5px;
+    margin-bottom: 50px;
+    width: 70%;
+    margin: auto;
+    clear: both;
+}
 
 .footer-text{
     font-size: 20px;
@@ -64,7 +276,7 @@ footer{
 }
 
 .fa-twitter{
-    color: white;
+    color: rgb(255, 94, 0);
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -73,7 +285,7 @@ footer{
     margin: 5px 2px;}
 
 .fa-facebook{
-    color: white;
+    color: rgb(255, 94, 0);
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -82,7 +294,7 @@ footer{
     margin: 5px 2px;}
 
 .fa-youtube{
-    color: white;
+    color: rgb(255, 94, 0);
     padding: 20px;
     font-size: 30px;
     width: 30px;
